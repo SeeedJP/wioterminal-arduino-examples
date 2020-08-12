@@ -1,10 +1,10 @@
 #include <AtWiFi.h>
-#include <PubSubClient.h> // https://github.com/SeeedJP/pubsubclient
+#include <PubSubClient.h> // https://github.com/knolleary/pubsubclient
 
 const char* WIFI_SSID     = "";
 const char* WIFI_PASSWORD = "";
 
-const char* MQTT_SERVER_HOST = "192.168.1.106";
+const char* MQTT_SERVER_HOST = "";
 const int   MQTT_SERVER_PORT = 1883;
 
 const char* MQTT_ID       = "id";
@@ -36,9 +36,10 @@ void setup()
   Serial.println("Connected.");
   
   Serial.print("IP Address: ");
-  Serial.println (WiFi.localIP());
+  Serial.println(WiFi.localIP());
   Serial.println();
 
+  Mqtt.setBufferSize(1024);
   Mqtt.setServer(MQTT_SERVER_HOST, MQTT_SERVER_PORT);
   Mqtt.setCallback(callback);
   Mqtt.setClient(Client);

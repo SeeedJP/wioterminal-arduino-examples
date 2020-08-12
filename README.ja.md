@@ -31,8 +31,8 @@
 |:--|:--|:--|
 |network/http-client||LIB1, [HttpClient](https://github.com/amcewen/HttpClient)|
 |network/https-client||LIB1, [HttpClient](https://github.com/amcewen/HttpClient)|
-|network/mqtt-client||LIB1, [Arduino Client for MQTT](https://github.com/SeeedJP/pubsubclient)|
-|network/mqtts-client||LIB1, [Arduino Client for MQTT](https://github.com/SeeedJP/pubsubclient)|
+|network/mqtt-client||LIB1, [Arduino Client for MQTT](https://github.com/knolleary/pubsubclient)|
+|network/mqtts-client||LIB1, [Arduino Client for MQTT](https://github.com/knolleary/pubsubclient)|
 
 ## ’Ç‰Áƒ‰ƒCƒuƒ‰ƒŠ
 
