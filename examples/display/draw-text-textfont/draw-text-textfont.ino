@@ -1,6 +1,6 @@
 #include <TFT_eSPI.h>
 
-TFT_eSPI tft;
+static TFT_eSPI tft;
 
 void setup() {
   tft.begin();
