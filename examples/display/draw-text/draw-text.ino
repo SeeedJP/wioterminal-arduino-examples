@@ -46,23 +46,11 @@ void setup() {
 void loop() {
   static int count = -1;
   count = (count + 1) % 10000;
-  String str{ StringFormat("%8d", count) };
+  String str{ String::format("%8d", count) };
 
   tft.setTextColor(TFT_BLACK, TFT_DARKGREY);
   tft.setTextDatum(BR_DATUM);
   tft.drawString(str, tft.width() - 1, tft.height() - 1);
   
   delay(100);
-}
-
-static String StringFormat(const char* format, ...)
-{
-  va_list arg;
-  va_start(arg, format);
-  const int len = vsnprintf(nullptr, 0, format, arg);
-  char str[len + 1];
-  vsnprintf(str, sizeof(str), format, arg);
-  va_end(arg);
-
-  return String(str);
 }

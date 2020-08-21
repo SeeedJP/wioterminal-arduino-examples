@@ -3,7 +3,7 @@
 ## 動作確認環境
 
 * Arduino IDE 1.8.13
-* [Seeed SAMD Boards](https://github.com/Seeed-Studio/ArduinoCore-samd) 1.7.8
+* [Seeed SAMD Boards](https://github.com/Seeed-Studio/ArduinoCore-samd) 1.7.9
 
 
 ## サンプルスケッチ
