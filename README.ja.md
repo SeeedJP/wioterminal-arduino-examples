@@ -22,6 +22,15 @@
 |display/draw-text|ディスプレイに文字を表示します。|-|<img src="media/1.png" height="100">|
 |display/draw-text-textfont|ディスプレイに文字を表示します。<br>（テキストフォントを指定）|-|<img src="media/2.png" height="100">|
 
+### Grove
+
+|スケッチ名|概要|追加ライブラリ|写真|
+|:--|:--|:--|:--|
+|grove/GroveButton|ボタンの入力状態をシリアルモニタに表示します。|[GroveDriverPack](https://github.com/SeeedJP/GroveDriverPack)|<img src="media/3.png" height="100">|
+|grove/GroveBuzzer|1秒毎にブザーを鳴らします。|[GroveDriverPack](https://github.com/SeeedJP/GroveDriverPack)|<img src="media/4.png" height="100">|
+|grove/GroveRotaryAngle|ツマミ（ノブ）の回転角度をシリアルモニタに表示します。|[GroveDriverPack](https://github.com/SeeedJP/GroveDriverPack)|<img src="media/5.png" height="100">|
+|grove/GroveAccelerometer16G|加速度をシリアルモニタに表示します。|[GroveDriverPack](https://github.com/SeeedJP/GroveDriverPack)|<img src="media/6.png" height="100">|
+
 ### ネットワーク
 
 > Wio Terminal に載っている通信モジュールRTL8720DNのファームウェアを最新にする必要があります。  
