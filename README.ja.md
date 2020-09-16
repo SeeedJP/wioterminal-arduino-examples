@@ -30,6 +30,7 @@
 |grove/GroveBuzzer|1秒毎にブザーを鳴らします。|[GroveDriverPack](https://github.com/SeeedJP/GroveDriverPack)|<img src="media/4.png" height="100">|
 |grove/GroveRotaryAngle|ツマミ（ノブ）の回転角度をシリアルモニタに表示します。|[GroveDriverPack](https://github.com/SeeedJP/GroveDriverPack)|<img src="media/5.png" height="100">|
 |grove/GroveAccelerometer16G|加速度をシリアルモニタに表示します。|[GroveDriverPack](https://github.com/SeeedJP/GroveDriverPack)|<img src="media/6.png" height="100">|
+|grove/GroveDHT11|温度、湿度をシリアルモニタに表示します。|[GroveDriverPack](https://github.com/SeeedJP/GroveDriverPack)||
 
 ### ネットワーク
 
